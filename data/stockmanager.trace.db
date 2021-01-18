@@ -1,0 +1,6 @@
+2021-01-17 20:25:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COTACAO" not found; SQL statement:
+insert into cotacao (id, data, nome, valor) values (null, ?, ?, ?) [42102-200]
+2021-01-17 20:26:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TBL_COTACAO" not found; SQL statement:
+insert into tbl_cotacao (id, data, nome, valor) values (null, ?, ?, ?) [42102-200]
